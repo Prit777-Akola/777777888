@@ -1,0 +1,205 @@
+{
+  "timeDuaration": 5,
+  "qBankArr": [
+    {
+      "question": "(function(){<br/>&nbsp;&nbsp;&nbsp;return typeof arguments;<br/>})();",
+      "optionArr": [
+        "object",
+        "array",
+        "arguments",
+        "undefined"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "var f = function g(){ return 23; };<br/>&nbsp;typeof g();",
+      "optionArr": [
+        "number",
+        "undefined",
+        "function",
+        "Error"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "(function f(f){<br/>&nbsp;&nbsp;&nbsp;return typeof f();<br/>})(function(){ return 1; });",
+      "optionArr": [
+        "number",
+        "undefined",
+        "function",
+        "Error"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "String('Hello') === 'Hello';",
+      "optionArr": [
+        "true",
+        "false",
+        "typeError",
+        "none"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "10 > 9 > 8 === true;",
+      "optionArr": [
+        "true",
+        "false",
+        "typeError",
+        "undefined"
+      ],
+      "correct": 1
+    },
+    {
+      "question": " var f = (function f(){ return \"1\"; }, function g(){ return 2; })();<br/>typeof f;",
+      "optionArr": [
+        "string",
+        "number",
+        "function",
+        "undefined"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Number( \"1\") - 1 == 0;",
+      "optionArr": [
+        "true",
+        "false",
+        "typeError",
+        "undefined"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "(true + false) > 2 + true;",
+      "optionArr": [
+        "true",
+        "false",
+        "typeError",
+        "NaN"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "\"1\" - - \"1\";",
+      "optionArr": [
+        "0",
+        "2",
+        "11",
+        "\"11\""
+      ],
+      "correct": 1
+    },
+    {
+      "question": "new Array(5).toString();",
+      "optionArr": [
+        "\",,,,\"",
+        "[]",
+        "\"[]\"",
+        "undefined"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "const arr = [10, 12, 15, 21];<br/><br/>for (var i = 0; i < arr.length; i++) {<br/>&nbsp;&nbsp;setTimeout(function() {<br/>&nbsp;&nbsp;&nbsp;console.log('Index: ' + i + ', element: ' + arr[i]);<br/>&nbsp;&nbsp;},3000);<br/>}",
+      "optionArr": [
+        "Index: 0 element: 10",
+        "Index: 2 element: 15",
+        "Index: 3 element: 21",
+        "Index: 4 element: undefined"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following function of String object returns the calling string value converted to upper case",
+      "optionArr": [
+        "toLocaleUpperCase()",
+        "toUpperCase()",
+        "toString()",
+        "substring()"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which built-in method sorts the elements of an array?",
+      "optionArr": [
+        "changeOrder(order)",
+        "order()",
+        "sort()",
+        "None of the above."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How can you get the type of arguments passed to a function?",
+      "optionArr": [
+        "using typeof operator",
+        "using getType function",
+        "Both of the above.",
+        "None of the above."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which built-in method returns the character at the specified index?",
+      "optionArr": [
+        "characterAt()",
+        "getCharAt()",
+        "charAt()",
+        "None of the above."
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "optionArr": [
+        "var colors = [\"red\", \"green\", \"blue\"]",
+        "var colors = \"red\", \"green\", \"blue\"",
+        "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+        "None of the above."
+      ],
+      "correct": 0
+    },
+    {
+      "question": "How do you round the number 7.25, to the nearest integer?",
+      "optionArr": [
+        "round(7.25)",
+        "Math.round(7.25)",
+        "rnd(7.25)",
+        "Math.rnd(7.25)"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "function f(){</br>&nbsp;return 2;</br>}</br></br>typeof new f()",
+      "optionArr": [
+        "undefined",
+        "number",
+        "object",
+        "Error"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What will the following code return: Boolean(10 > 9)",
+      "optionArr": [
+        "NaN",
+        "true",
+        "false",
+        "Error"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "var x = `foo ${y}`,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y = `bar ${x}`;<br/><br/>console.log(x);",
+      "optionArr": [
+        "foo undefined",
+        "foo bar undefined",
+        "foo bar foo bar",
+        "Error"
+      ],
+      "correct": 0
+    }
+  ]
+}
